@@ -1,0 +1,28 @@
+body {
+	background: #edeef0;
+}
+
+body:before{
+    position: absolute;
+    left: 0;
+    top: 0;
+	bottom: 0;
+	right: 0;
+    content: '';
+	background: url('background.jpg');
+    opacity: 0.4;
+}
+
+#nav {
+	background-color: #4a76a8;
+}
+
+.navbar-brand img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+#successForm .modal-body {
+	text-align: center;
+}
